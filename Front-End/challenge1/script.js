@@ -17,6 +17,6 @@ function accion(valuebtn) {
 		count.textContent = Number(count.textContent) - 1;
 	}
 }
-
+// run functions
 ejecutarbtn(btnincrease, accion);
 ejecutarbtn(btndecrease, accion);
