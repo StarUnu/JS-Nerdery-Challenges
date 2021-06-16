@@ -1,6 +1,5 @@
-/* eslint-disable quotes */
-/* eslint linebreak-style: ["error", "windows"] */
 // Modify this file only
+
 const btnincrease = document.getElementById('increase');
 const btndecrease = document.getElementById('decrease');
 
@@ -17,6 +16,7 @@ function accion(valuebtn) {
 		count.textContent = Number(count.textContent) - 1;
 	}
 }
-// run functions
+
 ejecutarbtn(btnincrease, accion);
 ejecutarbtn(btndecrease, accion);
+
